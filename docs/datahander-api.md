@@ -15,7 +15,7 @@ All queries use standard HTTP GET query parameters. At minimum, the `type` param
 #### Example query
 
 ```
-http://www.example.com/dataHander.php?type=alertJSON
+http://www.example.com/dataHandler.php?type=alertJSON
 ```
 
 ## data
@@ -48,7 +48,7 @@ http://www.example.com/dataHandler.php?type=data&id=nws&subid=CAR&timestamp=1716
 #### Example query
 
 ```
-http://www.example.com/dataHander.php?type=hurricaneJSON
+http://www.example.com/dataHandler.php?type=hurricaneJSON
 ```
 
 ## localRadarData
@@ -84,9 +84,9 @@ http://www.example.com/dataHandler.php?type=localRadarData&timestamp=1716750055
 #### Example queries
 
 ```
-http://www.example.com/dataHander.php?type=metadata&id=abi&subtype=fdfc_19
-http://www.example.com/dataHander.php?type=metadata&id=meso&subid=m1ch02_19
-http://www.example.com/dataHander.php?type=metadata&id=sysInfo
+http://www.example.com/dataHandler.php?type=metadata&id=abi&subtype=fdfc_19
+http://www.example.com/dataHandler.php?type=metadata&id=meso&subid=m1ch02_19
+http://www.example.com/dataHandler.php?type=metadata&id=sysInfo
 ```
 
 ## preload
@@ -100,7 +100,7 @@ http://www.example.com/dataHander.php?type=metadata&id=sysInfo
 #### Example query
 
 ```
-http://www.example.com/dataHander.php?type=preload
+http://www.example.com/dataHandler.php?type=preload
 ```
 
 ## tle
@@ -114,7 +114,7 @@ http://www.example.com/dataHander.php?type=preload
 #### Example query
 
 ```
-http://www.example.com/dataHander.php?type=tle
+http://www.example.com/dataHandler.php?type=tle
 ```
 
 ## weatherJSON
@@ -128,5 +128,5 @@ http://www.example.com/dataHander.php?type=tle
 #### Example query
 
 ```
-http://www.example.com/dataHander.php?type=hurricaneJSON
+http://www.example.com/dataHandler.php?type=weatherJSON
 ```
